@@ -257,6 +257,37 @@ body{
         margin-top: 50px;
     }
 }
+@media (max-width: 200px) {
+    .header-stiky{
+        font-size: 10px;
+    }
+    .header{
+        font-size: 4px;
+    }
+    .evidence{
+        margin-top: 30%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5vw;
+    }
+    .box{
+        padding: 25px;
+        background-color: #8A794D;
+        border-radius: 20px;
+        width: 60%;
+    }
+    .fakt-title{
+        color: #fff;
+        font-size: 1.5em;
+    }.fakt-text li{
+        color: #fff;
+        letter-spacing: 5px;
+        font-size: 0.7em;
+        margin-top: 50px;
+    }
+}
 
 .footer{
     background-color: #675B3D;
