@@ -109,6 +109,17 @@ body{
     font-size: 2em;
     margin-top: 50px;
 }
+
+.img{
+    max-width: 800px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 @media (max-width: 1350px) {
     .evidence{
         height: 100%;
@@ -175,6 +186,46 @@ body{
         margin-top: 50px;
     }
 }
+@media (max-width: 584px) {
+    .evidence{
+        margin-top: 10%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5vw;
+    }
+    .box{
+        padding: 25px;
+        background-color: #8A794D;
+        border-radius: 20px;
+        width: 60%;
+    }
+    .fakt-title{
+        color: #fff;
+        font-size: 1.5em;
+    }.fakt-text li{
+        color: #fff;
+        letter-spacing: 10px;
+        font-size: 1em;
+        margin-top: 50px;
+    }
+    .info-txt{
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 10vw;
+    color: #fff;
+    line-height: 100px;
+    }
+}
+@media (max-width: 500px) {
+    .header-stiky{
+        font-size: 40px;
+    }
+    .header{
+        font-size: 30px;
+    }
+}
 
 .footer{
     background-color: #675B3D;
@@ -196,17 +247,6 @@ body{
 	right: 45px;
 	bottom: 45px;
     display: none;
-}
-
-
-.img{
-    max-width: 800px;
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
 }
 
 body::-webkit-scrollbar {
