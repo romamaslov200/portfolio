@@ -1,0 +1,224 @@
+@font-face {
+	font-family: 'Shantell Sans'; 
+	src: url(/fonts/ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf); 
+}
+
+*{
+    margin: 0;
+    font-family: 'Shantell Sans';
+    user-select: none;
+}
+html, body
+{
+    height: 100vh;
+    line-height: 1;
+}
+.wrapper{
+}
+.main{
+    flex: 1 1 auto;
+}
+.block1{
+    height: 100vh;
+    width: 100%;
+}
+body{
+    background-color: #AE9963;
+    font-family: 'Shantell Sans';
+}
+.header{
+    display: flex;
+    background-color: #8A794D;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    gap: 30px;
+}
+.header li
+{
+    list-style: none;
+    margin: 10px;
+}
+.header a{
+    color: #fff;
+    font-weight:normal;
+    text-decoration: dashed;
+    margin: 20px 20px;
+}
+.header li:hover{
+    background-color: #AE9963;
+    border-radius: 10px;
+}
+/* ========================================== */
+.header-stiky{
+    position: sticky;
+    top: 0px;
+    overflow: none;
+    display: flex;
+    background-color: #8A794D;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    gap: 30px;
+}
+.header-stiky li
+{
+    list-style: none;
+    margin: 10px;
+}
+.header-stiky p{
+    margin: auto;
+    color: #fff;
+    text-decoration: dashed;
+}
+.header-stiky li:hover{
+    background-color: #AE9963;
+    border-radius: 10px;
+}
+/* ======================= */
+.info-txt{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10vw;
+    color: #fff;
+    line-height: 100px;
+}
+
+.evidence{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10vw;
+}
+
+.box{
+    padding: 50px;
+    background-color: #8A794D;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+}
+.fakt-title{
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+}.fakt-text li{
+    color: #fff;
+    letter-spacing: 20px;
+    font-size: 2em;
+    margin-top: 50px;
+}
+@media (max-width: 1350px) {
+    .evidence{
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 5vw;
+    }
+    .fakt-title{
+        color: #fff;
+        font-size: 2.5em;
+    }.fakt-text li{
+        color: #fff;
+        letter-spacing: 20px;
+        font-size: 1.5em;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1150px) {
+    .evidence{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+    }
+    .box{
+        padding: 45px;
+        background-color: #8A794D;
+        border-radius: 20px;
+    }
+    .fakt-title{
+        text-align: center;
+        color: #fff;
+        font-size: 2.5vw;
+    }.fakt-text li{
+        color: #fff;
+        letter-spacing: 20px;
+        font-size: 1.5vw;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .evidence{
+        margin-top: 10%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5vw;
+    }
+    .box{
+        padding: 25px;
+        background-color: #8A794D;
+        border-radius: 20px;
+    }
+    .fakt-title{
+        color: #fff;
+        font-size: 2.5em;
+    }.fakt-text li{
+        color: #fff;
+        letter-spacing: 20px;
+        font-size: 1.5em;
+        margin-top: 50px;
+    }
+}
+
+.footer{
+    background-color: #675B3D;
+}
+.footer-grid{
+    display: grid;
+    margin: 0 10vw;
+    grid-template-columns: 1fr 1fr 0fr;
+    flex-direction: column;
+}
+.footer p{
+    color: #fff;
+}
+
+
+
+#topNubex {
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
+    display: none;
+}
+
+
+.img{
+    max-width: 800px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: #F4CA98;
+    border-radius: 20px;
+    outline: 1px solid slategrey;
+  }
